@@ -2,10 +2,10 @@
 import java.util.HashSet;  // Import HashSet to store unique values
 
 public class Duplicate {
-    
+
     // This function checks for duplicates
     public static boolean containsDuplicate(int[] nums) {
-        HashSet<Integer> seen = new HashSet<>();  // Create empty set
+        HashSet<Integer> seen = new HashSet<>();  // Create empty set hashset 
         
         for (int num : nums) {  // Go through each number in the array
             if (seen.contains(num)) {
